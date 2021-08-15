@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <conio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "universal.h"
 
-int main(void)
+int main(int _ArgC, char** _ArgV)
 {
     return 0;
 }
