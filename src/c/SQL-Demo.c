@@ -1,4 +1,4 @@
-#include "../header/SQL-Demo.h"
+#include "SQL-Demo.h"
 
 bool sqlDemo_quickStrcmp(const char *_Str1, const char *_Str2)
 {
