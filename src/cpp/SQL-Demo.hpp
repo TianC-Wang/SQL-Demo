@@ -8,6 +8,7 @@ namespace sql_demo
     class dataObject
     {
     private:
+        /// @brief The headers of the data.
         std::vector<std::string> _headers;
     public:
         /// @brief Add a column to the end of the object.

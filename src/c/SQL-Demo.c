@@ -51,7 +51,9 @@ bool sqlDemo_addHeader(SQLDEMO_OBJECT* _Obj, const char* _Str)
             _Obj->headers[i] = pLegacy[i];
         _Obj->headers[i] = malloc(sizeof(char) * (strlen(_Str) + 1));
         strcpy(_Obj->headers[i], _Str);
+        return true;
     }
+    return false;
 }
 
 void sqlDemo_output(SQLDEMO_OBJECT* _Obj, FILE *_Fs)
